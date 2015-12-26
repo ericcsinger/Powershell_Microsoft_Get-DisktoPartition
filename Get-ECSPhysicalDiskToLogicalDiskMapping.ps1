@@ -1,8 +1,9 @@
-﻿Function Get-PhysicalDiskToLogicalDisk
+﻿Function Get-ECSPhysicalDiskToLogicalDiskMapping
 	{
 	<#
   	.SYNOPSIS
-  	This function is used to map a physical disk to a partition.  
+  	This function is used to map a physical disk to a partition.
+    Version 0.1  
   	#>
 	Param
 	 	(
