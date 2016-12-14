@@ -43,7 +43,7 @@
                                 PhysicalDiskNumber = $($Disk.Index)
                                 PhysicalDiskController = $($Disk.SCSIPort)
                                 PhysicalDiskControllerPort = $($Disk.SCSITargetId)
-                                PhysicalDiskDiskSerialNumber = $($Disk.SerialNumber)
+                                PhysicalDiskSerialNumber = $($Disk.SerialNumber)
                                 PhysicalDiskSize = $($Disk.Size)
                                 PhysicalDiskModel = $($Disk.Model)
                                 LogicalDiskLetter = $($LogicalDisk.DeviceID)
